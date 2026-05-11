@@ -1,0 +1,322 @@
+/* =============================================
+   CHALLENGE 1
+   goal: make the boxes sit in a row
+   ============================================= */
+.challenge-1 {
+  background-color: grey;
+  width: 100vw;
+  /* add code below */
+
+
+}
+
+
+/* =============================================
+   CHALLENGE 2
+   goal: make the boxes stack in a column
+   ============================================= */
+.challenge-2 {
+  background-color: grey;
+  width: 100vw;
+  display: flex;
+  /* add code below*/
+
+
+
+}
+
+
+
+/* =============================================
+   CHALLENGE 3
+   goal: stack the boxes and center them vertically
+   ============================================= */
+.challenge-3 {
+  background-color: grey;
+  width: 100vw;
+  /* add code below */
+
+
+}
+
+
+/* =============================================
+   CHALLENGE 4
+   goal: row of boxes centered horizontally and vertically
+   ============================================= */
+.challenge-4 {
+  background-color: grey;
+  width: 100vw;
+  height: 400px;
+  /* add code below */
+
+
+
+}
+
+
+
+/* =============================================
+   CHALLENGE 5
+   goal: two sections 
+   1.top row of boxes centered horizontally
+   2.bottom row column of boxes centered horizontally
+   ============================================= */
+.challenge-6a {
+  background-color: grey;
+  width: 100vw;
+
+  /* top section, add code below */
+}
+
+.challenge-6b {
+  background-color: lightgray;
+  width: 100vw;
+  /* bottom section, add code below */
+
+}
+
+
+/* =============================================
+   CHALLENGE 6
+   goal: nested flex
+         
+
+for challenge-7 there are three containers
+each one has a rule that you will need to use flex properties
+to match the layout, you will also need to use flex:1
+on the children, the rest are properties you have used in past challenges
+
+   ============================================= */
+.challenge-7 {
+  width: 100vw;
+  height: 320px;
+    /* add code below */
+
+}
+
+.c-7-child-1 {
+  background-color: lightgrey;
+  /* add code below */
+
+
+}
+
+.c-7-child-2 {
+  background-color: darkgrey;
+
+  /* add code below */
+}
+
+
+/* =============================================
+   CHALLENGE 7
+   goal: classic page layout
+         1.header on top, full width
+
+         2.sidebar + main side by side in the middle
+
+         3.footer on the bottom, full width
+
+         for this part you will have to use the flex 
+         property on the child section so that they fill out
+         there section nicely
+
+         flex: 1 means it will take up equal space as its neighbor
+
+         you might want to play around with the numbers to get it correctly
+
+
+
+   ============================================= */
+   
+.challenge-8 {
+
+    /* 
+    there are two properties missing here 
+    one to turn it into a flex container and another to get
+    the elements to get into the right direction.
+    */
+    display: flex;
+    flex-direction: column;
+
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.c-8-header {
+  background-color: steelblue;
+  height: 60px;
+  /* there is one property missing here, 
+  This property is used on children,
+  it allows it to take up any empty space
+  */
+  flex: 1;
+
+}
+
+.c-8-middle {
+    /* 
+
+    two missing properties here 
+    1.one to turn this into a flex container
+
+   2.This property is used on children,
+   it allows it to take up any empty space
+  */
+  display: flex;
+  flex: 5;
+}
+
+.c-8-sidebar {
+  background-color: coral;
+/*   This property is used on children,
+  it allows it to take up any empty space */
+  flex: 1;
+}
+
+.c-8-main {
+  background-color: lightgreen;
+  /*   This property is used on children,
+  it allows it to take up any empty space */
+  flex:2;
+}
+
+.c-8-footer {
+  background-color: steelblue;
+
+  /*   This property is used on children,
+  it allows it to take up any empty space */
+  flex: 1;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.c-7-b1 {
+  width: 80px;
+  height: 80px;
+  background-color: red;
+}
+.c-7-b2 {
+  width: 80px;
+  height: 80px;
+  background-color: blue;
+}
+.c-7-b3 {
+  width: 80px;
+  height: 80px;
+  background-color: green;
+}
+.c-7-b4 {
+  width: 80px;
+  height: 80px;
+  background-color: orange;
+}
+body{
+    padding: 5px;
+}
+
+
+.c-1-b1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.c-1-b2 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+.c-1-b3 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+
+.c-2-b1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.c-2-b2 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+.c-2-b3 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+
+
+.c-3-b1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.c-3-b2 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+.c-3-b3 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+
+.c-4-b1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.c-4-b2 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+.c-4-b3 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+
+.c-6a-b1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.c-6a-b2 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+.c-6a-b3 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+
+.c-6b-b1 {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+}
+.c-6b-b2 {
+  width: 100px;
+  height: 100px;
+  background-color: yellowgreen;
+}
+.c-6b-b3 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
